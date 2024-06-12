@@ -1,0 +1,16 @@
+﻿@model CamisetaViewModel
+
+<div>
+    <h1> @Model.CategoriaAtual </h1>
+</div>
+
+<div class="container">
+    <div class="row">
+        @foreach(var camiseta in Model.Camisetas)
+        {
+            <partial name="_CamisetaResumo" for="@camiseta" />
+        }
+
+
+    </div>
+</div>

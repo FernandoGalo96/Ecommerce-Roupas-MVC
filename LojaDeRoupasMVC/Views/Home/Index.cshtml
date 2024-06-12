@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Loja de Roupas</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .custom-image {
+            max-height: 500px;
+        }
+        .highlight-section {
+            margin: 20px 0;
+        }
+        .highlight-card img {
+            max-height: 200px;
+            object-fit: cover;
+        }
+        .welcome-section {
+            padding: 40px 0;
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-dark text-white text-center py-5">
+        <h1>SEJA BEM VINDO A MINHA LOJA DE ROUPAS!</h1>
+    </header>
+
+    <div class="container welcome-section">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-8">
+                <img src="/images/loja de ropupas.png" class="img-fluid d-block mx-auto custom-image" alt="Banner Loja">
+            </div>
+        </div>
+    </div>
+
+    <partial name="_ProdutosHomePartial" />
+
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Minha Loja de Roupas. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
